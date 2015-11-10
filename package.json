@@ -1,0 +1,21 @@
+{
+  "name": "networksetup",
+  "version": "1.0.0",
+  "description": "Control proxy settings on OS X",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Daniel Luxemburg",
+  "license": "ISC",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "denodeify": "^1.2.1"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
